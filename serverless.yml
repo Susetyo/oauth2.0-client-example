@@ -2,7 +2,7 @@ service: oauth-client-example
 
 provider:
   name: aws
-  runtime: nodejs6.10
+  runtime: nodejs8.10
   region: ${opt:region, env:AWS_DEFAULT_REGION, self:custom.defaultRegion}
 
 custom:
@@ -25,11 +25,9 @@ functions:
     handler: server.handler
     events:
       - http:
-          integration: lambda-proxy
           path: /
           method: ANY
       - http:
-          integration: lambda-proxy
           path: /{any+}
           method: ANY
     environment:

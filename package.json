@@ -21,14 +21,14 @@
   },
   "homepage": "https://github.com/Brightspace/application-data-api-demo#readme",
   "devDependencies": {
-    "dotenv": "^4.0.0",
-    "gulp": "^3.9.1",
-    "gulp-cli": "^1.2.1",
+    "dotenv": "^7.0.0",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.1.0",
     "gulp-nodemon": "^2.1.0",
     "jshint": "^2.9.2",
     "openssl-self-signed-certificate": "^1.1.4",
-    "serverless": "1.15.3",
-    "serverless-plugin-include-dependencies": "^2.1.2"
+    "serverless": "1.40.0",
+    "serverless-plugin-include-dependencies": "^3.2.1"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
@@ -36,6 +36,6 @@
     "ejs": "^2.4.2",
     "express": "^4.14.0",
     "serverless-http": "^1.4.3",
-    "superagent": "^2.0.0"
+    "superagent": "^5.0.2"
   }
 }
