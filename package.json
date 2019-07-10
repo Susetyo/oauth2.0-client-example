@@ -4,7 +4,7 @@
   "description": "Using the OAuth 2.0 flow to get data from the application and data APIs.",
   "main": "server.js",
   "scripts": {
-    "dev": "gulp dev",
+    "dev": "nodemon server-local.js",
     "start": "node server.js",
     "test": "jshint . && serverless deploy --noDeploy",
     "serverless": "serverless",
@@ -22,10 +22,8 @@
   "homepage": "https://github.com/Brightspace/application-data-api-demo#readme",
   "devDependencies": {
     "dotenv": "^7.0.0",
-    "gulp": "^4.0.0",
-    "gulp-cli": "^2.1.0",
-    "gulp-nodemon": "^2.1.0",
     "jshint": "^2.9.2",
+    "nodemon": "^1.19.1",
     "openssl-self-signed-certificate": "^1.1.4",
     "serverless": "1.40.0",
     "serverless-plugin-include-dependencies": "^3.2.1"
