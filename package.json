@@ -23,7 +23,7 @@
   "devDependencies": {
     "dotenv": "^8.2.0",
     "jshint": "^2.9.2",
-    "nodemon": "^1.19.1",
+    "nodemon": "^2.0.2",
     "openssl-self-signed-certificate": "^1.1.4",
     "serverless": "1.40.0",
     "serverless-plugin-include-dependencies": "^4.1.0"
